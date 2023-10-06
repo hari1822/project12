@@ -24,6 +24,7 @@ public class Users {
 	private int id;
 	@Column(name = "name", columnDefinition = "VARCHAR(30)")
 	private String name;
+	private String phoneNumber;
 	@Column(name = "status")
 	private boolean status;
 
